@@ -1,0 +1,12 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - Flask</title>
+    {% else %}
+    <title>Welcome to Flask/title>
+    {% endif %}
+  </head>
+  <body>
+      <h1>Hello, if you can see your user agent string, then flask is working: {{client}}</h1>
+  </body>
+</html>
